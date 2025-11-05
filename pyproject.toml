@@ -3,8 +3,12 @@ name = "ml-laby"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.14"
+requires-python = ">=3.12"
 dependencies = [
+    "accelerate>=1.11.0",
+    "certifi>=2025.10.5",
+    "datasets>=4.3.0",
+    "dill>=0.3.8.dev0",
     "ipykernel>=7.0.1",
     "ipywidgets>=8.1.7",
     "jupyter>=1.1.1",
@@ -18,7 +22,11 @@ dependencies = [
     "scikit-learn>=1.7.2",
     "scipy>=1.16.2",
     "seaborn>=0.13.2",
+    "sentence-transformers>=5.1.2",
     "torch>=2.9.0",
+    "torchtext>=0.18.0",
     "torchvision>=0.24.0",
+    "tqdm>=4.67.1",
+    "transformers>=4.57.1",
     "xgboost>=3.1.1",
 ]
